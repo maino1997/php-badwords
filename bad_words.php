@@ -27,10 +27,10 @@ $new_text = str_replace($word, '***', $text);
 </head>
 <body>
     <h2>Testo non censurato</h2>
-    <p><?php echo$text ?></p>
+    <p><?php echo$text ?> con lunghezza <?php echo strlen($text) ?></p>
     <br>
     <br>
     <h2>Testo con parola <?php echo$word ?> cenruata</h2>
-    <p><?php echo$new_text ?></p>
+    <p><?php echo$new_text ?> con lunghezza <?php echo strlen($new_text) ?></p>
 </body>
 </html>
