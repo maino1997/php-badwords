@@ -4,7 +4,11 @@ $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Harum praesentium fugiat magni atque unde, nostrum animi nulla voluptatibus accusantium dolores. 
 Cupiditate enim unde, nesciunt cumque consectetur corrupti magni? Corrupti, dignissimos';
 
+// First method with control 
 $word = $_GET ? $_GET['parola'] : '';
+
+// Without control 
+// $word = $_GET['parola'];
 
 $new_text = str_replace($word, '***', $text);
 
