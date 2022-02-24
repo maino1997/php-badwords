@@ -7,6 +7,7 @@ Cupiditate enim unde, nesciunt cumque consectetur corrupti magni? Corrupti, dign
 // First method with control 
 $word = $_GET ? $_GET['parola'] : '';
 
+
 // Without control 
 // $word = $_GET['parola'];
 
